@@ -12,7 +12,16 @@ Docker container for Spring and MySQL are on developement process.
 
 
 ## Compile/Run 
-_**Spring**_
+
+Current way to execute the project is using IDE (Eclipse is recommended).
+
+**NOTE** Please do not use the following files at the moment. These sh files are still on modification and may cuase problem on your docker images.
+
+Execute the following .sh files on bash following the sequence
+1. _pullmysql.sh_ using bash ``` $./pullmysql.sh```
+1. _buildmysql.sh_ using bash ``` $./_buildmysql.sh```
+1. _buildapi.sh_ using bash ``` $./_buildapi.sh```
+1. _app-run.sh_ using bash ``` $./app-run.sh```
 
 ## URL Mapping
 * **/** root url - show plain welcome message
